@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy My Albums</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            text-align: center;
+        }
+        header {
+            padding: 40px 20px;
+            background-color: #1f1f1f;
+        }
+        .albums {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .album {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .album img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 6px;
+        }
+        .album h2 {
+            margin: 16px 0 8px;
+        }
+        .album a {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 18px;
+            background-color: #3b6df1;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        footer {
+            padding: 30px;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Buy My Albums</h1>
+    <p>Official releases</p>
+</header>
+
+<section class="albums">
+
+    <div class="album">
+        <img src="william.jpg" alt="William Album cover">
+        <h2>William Album</h2>
+        <a href="https://elasticstage.com/williambilliam/releases/william-album" target="_blank">
+            Buy / Listen
+        </a>
+    </div>
+
+    <div class="album">
+        <img src="you-stare.jpg" alt="You Stare Too Much album cover">
+        <h2>You Stare Too Much</h2>
+        <a href="https://elasticstage.com/williambilliam/releases/you-stare-to-much-album" target="_blank">
+            Buy / Listen
+        </a>
+    </div>
+
+    <div class="album">
+        <img src="random-vinyl.jpg" alt="Random Vinyl album cover">
+        <h2>Random Vinyl Album</h2>
+        <a href="https://elasticstage.com/williambilliam/releases/random-vinyl-album" target="_blank">
+            Buy / Listen
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 William Billiam
+</footer>
+
+</body>
+</html>
